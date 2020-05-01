@@ -1,0 +1,445 @@
+/*******************/
+/*  Partie commune */
+/*******************/
+
+body{
+	font-family:  Arial;
+	font-size: 15px;
+	line-height: 150%;
+	margin: 0;
+	
+}
+
+header{
+	position: relative;
+	background-color: #333333;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	font-size: 150%;
+	padding: 10px 0px 10px 0px;
+}
+
+.visibilite{
+	margin-top: -2%;
+}
+
+.masquer{
+	visibility: hidden;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 150%;
+}
+
+.masquer2{
+	visibility: hidden;
+	color: white;
+	font-size: 150%;
+}
+
+
+footer
+{
+	background-color: #333333;
+	padding: 10px 0px 10px 0px;
+}
+/* Lien dans le pied de page */
+footer a
+{
+	color: #888888;
+}
+
+#social{
+	visibility: hidden;
+}
+
+/* Taille de la div du header*/
+header div
+{
+	height: 60px;
+}
+/* Bloc de contact */
+header div div
+{
+	box-sizing:border-box;
+	background-color: #888888;
+	padding: 15px;
+	margin: 0;
+	width: 200px;
+	font-size: 66%;
+	line-height: 125%;
+	position: absolute;
+	margin-top: -10px;
+	height: auto;
+	right: 0;
+}
+/* Titre principal*/
+h1
+{
+	font-family: "Trebuchet MS";
+	font-size: 200%;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	clear: both;
+}
+/*Titre secondaire */
+h2
+{
+	font-family: "Trebuchet MS";
+	font-size: 150%;
+	font-weight: normal;
+	text-transform: uppercase;
+	clear: both;
+}
+/*Sous-tire */
+h3
+{
+	font-family: "Trebuchet MS";
+	font-size: 115%;
+	font-weight: bold;
+	clear: both;
+}
+/* Lien */
+a
+{
+	color: #ff8800;
+	text-decoration: underline;
+}
+		/* Image*/
+.image1
+{
+	float: right;
+}
+
+.image2
+{
+	float: right;
+}
+
+.kitty1{
+	visibility: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kitty2{
+	visibility: hidden;
+}
+    
+/* Menu navigation */
+#menu{
+    text-decoration: none;
+    list-style: none;
+    background-color: #eeeeee;
+	padding: 2%;
+	display: block;
+}
+
+#menu ul{
+    color: white;
+    font-family: Tahoma;
+    font-size: 16pt;
+    margin: 2px;
+    padding: 0px;
+	
+	text-decoration: none;
+	display: block;
+}
+
+#menu li{
+    margin: 15px;
+    text-align: center;
+    display: inline;
+}
+
+
+.separation2{
+	visibility: hidden;
+}
+
+
+
+/*---------------------------VERSION MOBILE---------------------------*/
+
+@media only screen and (max-width : 480px) {
+
+
+/*-------POLICES-------*/
+
+	@font-face {
+		font-family: "candy";
+		src: url("../CSS2/Candyshop.otf") format("truetype");
+	}
+
+	@font-face {
+		font-family: "cheri";
+		src: url("../CSS2/CHERI___.TTF") format("truetype");
+	}
+
+	@font-face {
+		font-family: "letter";
+		src: url("../CSS2/LetterGothicStd.otf") format("truetype");
+	}	
+
+
+/*------SCROLL--------*/
+.js-scrollTo{
+	text-decoration: none;
+	color: white;
+}
+
+/*-------CORPS-------*/
+body{
+	font-family: Tahoma;
+	font-size: 15px;
+	line-height: 150%;
+	margin: 0;
+	text-align: justify;
+	margin:0;
+	padding: 0;
+	min-height: 100%;
+	width: 100%;
+	font-style: normal;
+	cursor: url(../CSS2/img/curseur.png),pointer;
+}
+
+
+/*-------EN-TETE-------*/	
+header{
+	background-color:#333333;
+	padding: 8px 0px 8px 0px;
+	width: auto;
+	margin: 0;
+}
+
+header div
+{
+	height: auto;
+}
+
+/*-------CONTACT-------*/
+header div div{
+	border-radius: 5pt;
+	background-color: #fbd8b7;
+	padding: 10px;
+	margin: 0;
+	width: 108px;
+	font-size: 35%;
+	line-height: 125%;
+	margin-right: 5px;
+	margin-top: -15px;
+}
+
+/*-------MENU-------*/
+#menu{
+    text-decoration: none;
+    list-style: none;
+    background-color: #e16389;
+    padding: 2%;
+    opacity: 1;
+}
+
+#menu ul{
+    color: white;
+    font-family: Tahoma;
+    font-size: 9pt;
+    letter-spacing: 2px;
+    margin: 2px;
+    padding: 0px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#menu li{
+    margin: 15px;
+    text-align: center;
+    display: inline;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+a{
+	color: #e16389;
+}
+
+/*-------TEXTES-------*/
+.masquer{
+	color: white;
+	font-weight: bold;
+	font-size: 60%;
+	visibility: initial;
+	margin-left: 30pt;
+	letter-spacing: 2px;
+	font-family: "candy";
+	padding:3%;
+	display: block;
+}
+
+.masquer2{
+	color: white;
+	font-size: 8pt;
+	visibility: initial;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: "Tahoma";
+	
+}
+
+.visibilite{
+	display: none;
+}
+
+
+h1{
+	font-family: "cheri";
+	font-size: 18pt;
+	text-align: left;
+	text-transform: uppercase;
+	clear: both;
+	color: #095d9a;
+	text-align: center;
+	padding: 30px;
+	font-weight: normal;
+	background: url("../CSS2/img/pois.png") repeat-x;
+	background-size: 500px;
+}
+
+h2{
+	visibility: hidden;
+}
+
+h3{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	color: #333333;
+	letter-spacing: 2px;
+}
+
+h5{
+	color: black;
+	text-align: center;
+	color: #333333;
+	letter-spacing: 2px;
+}
+
+p{
+	text-align: justify;
+	margin:0;
+	color:#333333;
+	font-weight: normal;
+	font-family: "letter";
+	font-size: 70%;
+}
+
+.p1{
+	color: #333333;
+	background-color: #fbd8b7;
+	padding: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-transform: none;
+	border-radius: 5%;
+}
+
+.p2{
+	color: #333333;
+	background-color: #fbd8b7;
+	padding: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 5%;
+}
+
+.p3{
+	color: #333333;
+	background-color: #fbd8b7;
+	padding: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 5%;
+}
+
+.p4{
+	color: #333333;
+	background-color: #fbd8b7;
+	padding: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 5%;
+}
+
+/*-------IMAGES-------*/
+.image1{
+	float: none;
+	max-width: 100%;
+	height: auto;
+	margin-left: 13%;
+	margin-top: -25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: grayscale(100%);
+	clip-path: circle(40%);
+}
+
+.image2{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clip-path: circle(40%);
+}
+
+.kitty1{
+	margin-left: auto;
+	margin-right: auto;
+	visibility: initial;
+	display: block;
+}
+
+.kitty2{
+	margin-left: 25%;
+	visibility: initial;
+	display: block;
+}
+
+/*-------BAS DE PAGE-------*/
+footer{
+	background-color: #e16389;
+	padding: 10px 0px 10px 0px;
+	width: auto;
+	text-align: center;
+}
+
+	
+footer a{
+		color: #FFFFFF;
+}
+
+.reseaux{
+	color: white;
+	visibility: initial;
+	display: inline;
+}
+
+#social{
+
+	text-align: center;
+	background: #333333;
+	visibility: initial;
+	
+}
+
+/*-------LIGNE HORIZONTALES-------*/
+.separation2{
+	visibility: initial;
+}
+
+
+
